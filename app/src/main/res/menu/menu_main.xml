@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.appscontroller.MainActivity">
+    <item
+        android:id="@+id/myWork_id"
+        android:orderInCategory="100"
+        android:title="My Work"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/withdraw_id"
+        android:orderInCategory="100"
+        android:title="Withdraw"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tramsAndConditions_id"
+        android:orderInCategory="100"
+        android:title="Trams and Conditions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notify_id"
+        android:orderInCategory="100"
+        android:title="User Offer"
+        app:showAsAction="never" />
+</menu>
