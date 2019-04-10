@@ -10,7 +10,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.user.appscontroller.InvalidClick.InvalidClicShowActivity;
 import com.example.user.appscontroller.PhoneAuth.PhonePickActivity;
+import com.example.user.appscontroller.Withdraw.WithdrawShowActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.withdraw_id) {
 
+            startActivity(new Intent(MainActivity.this,WithdrawShowActivity.class));
 
             return true;
         }
@@ -88,6 +91,14 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.notify_id) {
+            startActivity(new Intent(MainActivity.this,NoticeActivity.class));
+
+            return true;
+        }
+
+        if (id == R.id.invalid_id) {
+
+            startActivity(new Intent(MainActivity.this,InvalidClicShowActivity.class));
 
 
             return true;

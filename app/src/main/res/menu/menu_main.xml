@@ -10,7 +10,7 @@
     <item
         android:id="@+id/withdraw_id"
         android:orderInCategory="100"
-        android:title="Withdraw"
+        android:title="Withdraw Show "
         app:showAsAction="never" />
     <item
         android:id="@+id/tramsAndConditions_id"
@@ -21,5 +21,11 @@
         android:id="@+id/notify_id"
         android:orderInCategory="100"
         android:title="User Offer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/invalid_id"
+        android:orderInCategory="100"
+        android:title="Invalid Click Show"
         app:showAsAction="never" />
 </menu>
